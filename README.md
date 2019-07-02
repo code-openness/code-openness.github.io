@@ -1,14 +1,16 @@
 # code-openness.github.io
-## Installing ruby
+## Installing ruby and Jekyll:
 ```
 $ ruby --version
 $ gem install bundler
 ```
-## Installing Jekyll and all dependencies: 
+followed by:
 ```
 $ bundle install
 ```
-This istalls everything defined in the Gemfile and `_config.yml`.
+This installs everything defined in the Gemfile and `_config.yml`.
+
+for further instalation help check: https://help.github.com/en/articles/setting-up-your-github-pages-site-locally-with-jekyll
 
 ## See edited jekyll site locally using: 
 
@@ -27,8 +29,18 @@ $ bundle exec jekyll serve
 >  Server running... press ctrl-c to stop.
 ```
 
-
 ## Used theme:
 We are using the just-the-docs theme from https://github.com/pmarsceill/just-the-docs
 ### specific installation: 
 `$ gem install just-the-docs`
+
+## Page Navigation:
+we are currentlly using the navigation bar formating described in [Section 8](https://jekyllrb.com/tutorials/navigation/#)
+At the beginning of each Markdown file there should be a, heading as seen below: 
+```
+---
+Title: Example Page
+category: team_1
+order: 1
+---
+```
