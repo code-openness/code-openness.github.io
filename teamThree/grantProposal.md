@@ -1,7 +1,8 @@
 ---
+layout: default
 title: Scholia's Grant Proposal
-category: dataVisualization
-order: 7
+parent: 'Team 3: Data Vizualization' 
+nav_order: 7
 ---
 
 **Date:** 22.05.2019

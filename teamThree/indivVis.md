@@ -1,7 +1,8 @@
 ---
-title: Change Colors
-category: dataVisualization
-order: 6
+layout: default
+title: Change Graph Colors
+parent: 'Team 3: Data Vizualization' 
+nav_order: 6
 ---
 
 **Date:** 20.05.2019

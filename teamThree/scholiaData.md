@@ -1,9 +1,9 @@
 ---
-title: Scholia Data Necessities
-category: dataVisualization
-order: 4
+layout: default
+title: 'Scholia: Necessary Data'
+parent: 'Team 3: Data Vizualization' 
+nav_order: 4
 ---
-
 **Date:** 11.05.2019
 
 **Team:** Data Visualization

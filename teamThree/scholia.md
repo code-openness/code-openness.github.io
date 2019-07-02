@@ -1,9 +1,9 @@
 ---
-title: Scholia
-category: dataVisualization
-order: 3
+layout: default
+title: Scholia Background
+parent: 'Team 3: Data Vizualization' 
+nav_order: 3
 ---
-
 **Date:** 23.04.2019
 
 **Team:** Data Visualization

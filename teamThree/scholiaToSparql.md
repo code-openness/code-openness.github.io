@@ -1,9 +1,9 @@
 ---
-title: Scholia to SPARQL - Topic/Theme
-category: dataVisualization
-order: 8
+layout: default
+title: 'Scholia and Topic/Theme Querries'
+parent: 'Team 3: Data Vizualization' 
+nav_order: 8
 ---
-
 **Date:** 11.05.2019
 
 **Team:** Data Visualization
