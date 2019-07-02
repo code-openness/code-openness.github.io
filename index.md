@@ -6,3 +6,5 @@ layout: home
 title: Home
 nav_order: 1
 ---
+
+[View Projekt on GitHub](https://github.com/code-openness){: .btn .btn-green }
