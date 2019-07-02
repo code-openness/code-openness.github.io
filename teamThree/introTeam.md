@@ -1,6 +1,6 @@
 ---
-Title: Intro to Team Goal
-category: Team 3 - Data Visualization
+title: Intro to Team Goal
+category: dataVisualization
 order: 1
 ---
 **Date:** 16.04.2019
@@ -38,3 +38,5 @@ We have some visualizations in mind that seems applicable to almost all data typ
 We have already sketched some ‘concept’ for this prototype, which can be seen here:
 
 <img src="https://user-images.githubusercontent.com/49868259/57782259-27b5c100-772c-11e9-91f3-a07295067108.jpg" width="700" height="900" />
+
+
