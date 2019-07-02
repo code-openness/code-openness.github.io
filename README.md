@@ -10,7 +10,7 @@ $ bundle install
 ```
 This installs everything defined in the Gemfile and `_config.yml`.
 
-for further instalation help check: https://help.github.com/en/articles/setting-up-your-github-pages-site-locally-with-jekyll
+for further instalation help check: [GitHub](https://help.github.com/en/articles/setting-up-your-github-pages-site-locally-with-jekyll)
 
 ## See edited jekyll site locally using: 
 
@@ -35,7 +35,7 @@ We are using the just-the-docs theme from https://github.com/pmarsceill/just-the
 `$ gem install just-the-docs`
 
 ## Page Navigation:
-we are currentlly using the navigation bar formating described in [Section 8](https://jekyllrb.com/tutorials/navigation/#)
+we are currentlly using the navigation bar formating described in [Scenario 8](https://jekyllrb.com/tutorials/navigation/#scenario-8-retrieving-items-based-on-front-matter-properties)
 At the beginning of each Markdown file there should be a, heading as seen below: 
 ```
 ---
