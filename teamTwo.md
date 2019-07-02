@@ -6,6 +6,12 @@ has_children: true
 permalink: /teamTwo
 ---
 
+<h4>Server</h4>
+You're going to need some kind of server to run your wikibase instance. Depending on your ressources and usecase there can be a lot of options. From a dedicated x86 server, a rented vServer, a VM, or even a Raspberry Pi. It just needs to run docker.
+In our case we went for a VM provided by our university department.
+
+    
+
 <h4>Docker</h4>
 <ul style="list-style-type:disc;">
     <li>Setup Docker  <a href="https://github.com/code-openness/pik-wikibase">as shown here</a>  </li>
@@ -20,6 +26,9 @@ permalink: /teamTwo
                                         <li>Create a bot named bot, check all permissions and click create</li>
                                         <li>Copy the created Password (it should look like this: bot@7f7fqvfd5v5mn0nb7v214pu8vtj2vif8)</li>
                                       </ul>  
+<h5>Alternatively</h5>
+<ul style="list-style-type:disc;">
+                                        <li>simply use the admin user and passwortd specified in docker-compose.yml</li>
 
 <h4>Clean Up</h4>
                                         <h4>To completely delete the data from your Wikibase instance follow the instructions:</h4>
