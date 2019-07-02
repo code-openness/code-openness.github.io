@@ -1,8 +1,10 @@
 ---
-title: Intro to Team Goal
-category: dataVisualization
-order: 1
+layout: default
+title: Motivation
+parent: 'Team 3: Data Vizualization' 
+nav_order: 1
 ---
+
 **Date:** 16.04.2019
 
 **Team:** Data Visualization

@@ -1,8 +1,10 @@
 ---
+layout: default
 title: Other Visualization Tools
-category: dataVisualization
-order: 5
+parent: 'Team 3: Data Vizualization' 
+nav_order: 5
 ---
+
 **Date:** 13.05.2019
 
 **Team:** Data Visualization

@@ -1,7 +1,8 @@
 ---
+layout: default
 title: DoD
-category: dataVisualization
-order: 2
+parent: 'Team 3: Data Vizualization' 
+nav_order: 2
 ---
 
 **Date:** 01.05.2019
