@@ -25,3 +25,10 @@ nav_order: 2
                                             <li>In the console, in the folder where your docker-compose.yml is located, run <br> docker-compose down --volumes <br> to delete all data from the database and other data related to Wikibase</li>
                                             <li> In the console, in the folder data-mapping run <br> rm -rf apicache-py3 && rm -rf import_env && rm -rf pywikibot.lwp && rm -rf user-config.py&& rm -rf import.py && rm -rf data && rm -rf password && rm -rf throttle.ctrl && rm -rf <br> to delete the temporary data <br> Now you have an empty Wikibase instance again.</li>
                                           </ol>
+
+<h4>Requirements to run code</h4>
+                            <ul style="list-style-type:disc;">
+                                <li>Python 3.7.x</li>
+                                <li>WikidataIntegrator</li>
+                                <li>Pywikibot</li>
+                              </ul>
