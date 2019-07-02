@@ -32,3 +32,27 @@ nav_order: 2
                                 <li>WikidataIntegrator</li>
                                 <li>Pywikibot</li>
                               </ul>
+
+<h4>Wrote a code to add all items in Wikibase</h4>
+                                        <ol>
+                                            <li>Properties must already be present in the Wiki
+                                              </li>
+                                            <li>Get a .CSV file as parameter </li>
+                                          </ol>
+                                          <p>
+                                              After successful completion of the script 2 files should be created:
+                                          </p>
+                                          <ol>
+                                              <li>csv_path_updated.csv
+                                                </li>
+                                              <li>csv_path_errors.csv(contains all successfully added items with newly created QID)</li>
+                                            </ol>
+                                            <p>
+                                            Important parts of the code:
+                                            </p>
+                                            <ol>
+                                                <li>Open CSV file.</li>
+                                                <li>Go through all items in a loop.</li>
+                                                <li>Compare type of item with data type from wiki and add accordingly.</li>
+                                                <li>Save added items with QIDs in a new file.</li>
+                                              </ol>
