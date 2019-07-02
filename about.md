@@ -1,18 +1,8 @@
 ---
 layout: page
 title: About
+nav-order: 5
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+The code-opennes project is part of the [Coding Openness Software Project](https://www.mi.fu-berlin.de/en/inf/groups/hcc/teaching/summer_term_2019/coding-openness.html) led by [Prof. Müller-Birn](https://www.clmb.de/index.html) and her Research Group, [Human-Centered Computing](https://www.mi.fu-berlin.de/en/inf/groups/hcc/index.html), at the Freie Universität Berlin, in cooperation with the Potsdam Institute for Climate ([PIK](https://www.pik-potsdam.de/pik-frontpage)).
