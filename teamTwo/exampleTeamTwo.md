@@ -18,3 +18,10 @@ nav_order: 2
                                         <li>Create a bot named bot, check all permissions and click create</li>
                                         <li>Copy the created Password (it should look like this: bot@7f7fqvfd5v5mn0nb7v214pu8vtj2vif8)</li>
                                       </ul>  
+
+<h4>Clean Up</h4>
+                                        <h4>To completely delete the data from your Wikibase instance follow the instructions:</h4>
+ <ol>
+                                            <li>In the console, in the folder where your docker-compose.yml is located, run <br> docker-compose down --volumes <br> to delete all data from the database and other data related to Wikibase</li>
+                                            <li> In the console, in the folder data-mapping run <br> rm -rf apicache-py3 && rm -rf import_env && rm -rf pywikibot.lwp && rm -rf user-config.py&& rm -rf import.py && rm -rf data && rm -rf password && rm -rf throttle.ctrl && rm -rf <br> to delete the temporary data <br> Now you have an empty Wikibase instance again.</li>
+                                          </ol>
