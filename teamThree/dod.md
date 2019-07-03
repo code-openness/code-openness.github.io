@@ -1,10 +1,10 @@
 ---
 layout: default
 title: DoD
-parent: 'Team 3: Data Vizualization' 
+parent: 'Data Vizualization'
 nav_order: 2
 ---
-
+# Definition of Done (DoD)
 **Date:** 01.05.2019
 
 **Team:** Data Visualization

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Data Vizualization
+title: 'Data Vizualization'
 nav_order: 4
 has_children: true
 permalink: /teamThree

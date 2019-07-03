@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Motivation
-parent: Data Vizualization
+parent: 'Data Vizualization'
 nav_order: 1
 ---
-
+# Motivation
 **Date:** 16.04.2019
 
 **Team:** Data Visualization
