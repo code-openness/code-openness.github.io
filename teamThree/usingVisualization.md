@@ -2,11 +2,61 @@
 layout: default
 title: How to use sparkl_visualizer? 
 parent: 'Data Vizualization'
-nav_order: 3
+nav_order: 4
 ---
 # How to use sparkl_visualizer? 
 
-## iFrame Visualization:
+## Usage
+
+1. Write all your visualization elements down in the html file using the shape below.
+
+    ```html
+    <div data-visualization="__VISUALIZATION-TYPE__">
+        <script type="text/plain" data-content="Query">
+            __SPARQL-QUERY__
+        </script>
+    </div>
+    ```
+
+    - `__SPARQL-QUERY__` = A valid sparql query, validate your queries [here](https://query.wikidata.org).
+    - `__VISUALIZATION-TYPE__` = Type of the graphic or tabular visualization (e.g. `'BubbleChart'`)
+
+2. Include the `sparql-visualizer.js` at the end of your body.
+
+    ```html
+    <script src="PATH_TO_THE_SPARQL_VISUALIZER_JS_FILE" type="text/javascript"></script>
+    <script>
+        // Use the library here below the import
+    </script>
+    ```
+
+3. Construct a serializer object, configure it as you like and call `serialize`.
+
+    ```js
+    const { Serializer } = SparqlVisualizer;
+    const serializer = new Serializer();
+
+    // bellow is an example with the standard endpoint configuration
+    serializer.withEndpoint({ httpProtocol: 'https', host: 'wikidata.org' });
+
+    await serializer.serialize();
+    ```
+
+    **or in one go**
+
+    ```js
+    const { Serializer } = SparqlVisualizer;
+
+    await new Serializer()
+        .withEndpoint({
+            httpProtocol: 'https',
+            host: 'wikidata.org'
+        })
+        .serialize();
+    ```
+
+
+## Example 1: iFrame Visualization:
 
 ```javascript
 <div class="visualisation-wrapper" data-visualization="LineChart">
@@ -32,7 +82,7 @@ nav_order: 3
             </div>
 ```
 
-## HTML Table Visualization:
+## Example 2: HTML Table Visualization:
 
 ```javascript
  <div class="" data-visualization="Table">
