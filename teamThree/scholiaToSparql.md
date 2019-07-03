@@ -5,7 +5,7 @@ parent: Scholia Background
 grand_parent: 'Data Vizualization'
 nav_order: 2
 ---
-# Using Scholia SPARQL Querries
+# Using Scholia SPARQL Queries
 **Date:** 11.05.2019
 
 **Team:** Data Visualization
@@ -14,13 +14,14 @@ nav_order: 2
 
 ***
 
-# Here are some examples on how Scholia accesses information from Wikidata. 
+## How Scholia accesses information from Wikidata:
 **In general Wikidata contains many items, each item contains properties and each property contains statements, which are values. **
 
 
-## Let's once again take a look at the Scholia page for Jens Nielsen: https://tools.wmflabs.org/scholia/author/Q16733372. Here we see that he has the Wikidata item id: Q16733372. 
+### Let's take a look at the Scholia page for [Jens Nielsen](https://tools.wmflabs.org/scholia/author/Q16733372):
+Here we see that he has the Wikidata item id: Q16733372. 
 
-### Example 1: Venues
+#### Example 1: Venues
 One possibility is to show the venue statistics for his works, as seen [here](https://w.wiki/4G2). As you can see, it shows a weighted account of venues, for example "Biotechnology and Bioengineering" or "Applied Microbiology".
 If we follow Jens' Id to the [Wikidata page](https://www.wikidata.org/wiki/Q16733372) we see that he has information under properties, such as: 
 * instance of (value is human)
@@ -55,7 +56,7 @@ The second step is to then take one of these works and check for the statement w
 
 As such, the found value in that statement is then saved as a venue and can later be counted. For example: "Biotechnology and Bioengineering" occurred 69 times in Prof. Nielsen's works. 
 
-### Example 2: Topics
+#### Example 2: Topics
 looks at authors property/statement wdt:P101 (Arbeitsgebiet), "Themenkreis, auf dem eine Person oder Institution ihre Haupttätigkeit (Property:P106) entfaltet". As well as, the property wdt:P921 (Schlagwort), "zentrales Thema des Werks", in terms of the authors list of works. 
 ```SPARQL 
 #defaultView:BubbleChart
@@ -96,7 +97,7 @@ LIMIT 200
 ```
 
 
-### Example 3: Themes
+#### Example 3: Themes
 looks at work items for given author and searches for the statement/property wdt:P921, which means Schlagwort. Meaning: "das zentrale Thema des Werks". 
 ```SPARQL 
 #defaultView:Table
@@ -116,15 +117,15 @@ WHERE {
 ORDER BY DESC(?count) 
 ```
 
-## Some important links are: 
+### Some important links are: 
 * [How does Wikidata work?](https://www.wikidata.org/wiki/Wikidata:Introduction)
 * [Wikidata Items](https://www.wikidata.org/wiki/Help:Items)
 * [Wikidata Properties](https://www.wikidata.org/wiki/Help:Properties)
 * [Wikidata Statements](https://www.wikidata.org/wiki/Help:Statements)
 
-## Links to all Wikidata Proprties:
+### Links to all Wikidata Proprties:
 * [Special List of Properties](https://www.wikidata.org/wiki/Special:ListProperties)
 * [List of All Properties](https://www.wikidata.org/wiki/Wikidata:Database_reports/List_of_properties/all)
 
-## SPARQL Tutorial:
+### SPARQL Tutorial:
 * [Wikidata SPARQL Introduction](https://www.wikidata.org/wiki/Wikidata:SPARQL_tutorial)
