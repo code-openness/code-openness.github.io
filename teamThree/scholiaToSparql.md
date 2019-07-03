@@ -1,8 +1,8 @@
 ---
 layout: default
-title: 'Scholia and Topic/Theme Querries'
-parent: 'Team 3: Data Vizualization' 
-nav_order: 8
+title: 'Scholia SPARQL Querries'
+parent: Data Vizualization
+nav_order: 4
 ---
 **Date:** 11.05.2019
 
@@ -13,20 +13,6 @@ nav_order: 8
 ***
 
 # Here are some examples on how Scholia accesses information from Wikidata. 
-
-## Some important links are: 
-* [How does Wikidata work?](https://www.wikidata.org/wiki/Wikidata:Introduction)
-* [Wikidata Items](https://www.wikidata.org/wiki/Help:Items)
-* [Wikidata Properties](https://www.wikidata.org/wiki/Help:Properties)
-* [Wikidata Statements](https://www.wikidata.org/wiki/Help:Statements)
-
-## Links to all Wikidata Proprties:
-* [Special List of Properties](https://www.wikidata.org/wiki/Special:ListProperties)
-* [List of All Properties](https://www.wikidata.org/wiki/Wikidata:Database_reports/List_of_properties/all)
-
-## SPARQL Tutorial:
-* [Wikidata SPARQL Introduction](https://www.wikidata.org/wiki/Wikidata:SPARQL_tutorial)
-
 **In general Wikidata contains many items, each item contains properties and each property contains statements, which are values. **
 
 
@@ -127,3 +113,16 @@ WHERE {
 }
 ORDER BY DESC(?count) 
 ```
+
+## Some important links are: 
+* [How does Wikidata work?](https://www.wikidata.org/wiki/Wikidata:Introduction)
+* [Wikidata Items](https://www.wikidata.org/wiki/Help:Items)
+* [Wikidata Properties](https://www.wikidata.org/wiki/Help:Properties)
+* [Wikidata Statements](https://www.wikidata.org/wiki/Help:Statements)
+
+## Links to all Wikidata Proprties:
+* [Special List of Properties](https://www.wikidata.org/wiki/Special:ListProperties)
+* [List of All Properties](https://www.wikidata.org/wiki/Wikidata:Database_reports/List_of_properties/all)
+
+## SPARQL Tutorial:
+* [Wikidata SPARQL Introduction](https://www.wikidata.org/wiki/Wikidata:SPARQL_tutorial)

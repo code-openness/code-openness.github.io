@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Motivation
-parent: 'Team 3: Data Vizualization' 
+parent: Data Vizualization
 nav_order: 1
 ---
 

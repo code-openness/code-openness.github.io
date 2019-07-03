@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-remote_theme: pmarsceill/just-the-docs
+
 title: Code-Openness Documentation
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
@@ -27,9 +27,18 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
-theme: just-the-docs
+remote_theme: pmarsceill/just-the-docs
+#theme: just-the-docs
 plugins:
   - jekyll-feed
+
+# Enable or disable the site search
+search_enabled: true
+
+# Aux links for the upper right navigation
+aux_links:
+  "Code Openness on GitHub":
+    - "//github.com/code-openness"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
