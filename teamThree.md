@@ -5,6 +5,7 @@ nav_order: 4
 has_children: true
 permalink: /teamThree
 ---
+
 # Data Vizualisation
 Our Goal for this software project was the visualization of a bibliographic dataset received from [PIK](https://www.pik-potsdam.de/pik-frontpage). It contained information on their research and publications over the past few years. 
 
@@ -20,6 +21,8 @@ The created module  now allows for the dynamic adjustment of the endpoint, as we
 - Manually defined
 
 As such, all that is needed to generate a new graph is the necessary query. The query will then be normalized to achieve a standardized format, thus avoiding URL encoding problems. Consequently, even if the query is not perfectly formatted it will still generate the correct visualization. 
+
+It also contains a dev-playground, which demonstrates the use of these visualization methods and allows the active viewing of changes before pushing them.
 
 [View on GitHub](https://github.com/code-openness/sparql-visualizer){: .btn .btn-purple }
 [Further Internal Project Documentation](https://github.com/code-openness/Documentation/wiki){: .btn .btn-purple }
