@@ -11,7 +11,7 @@ Our goal for this software project was the visualization of a bibliographic data
 Within the field of bibliographical data, Wikidata is one of the most significant freely accessible sources of information and inspired the creation of a multitude of visualization tools. One of the most prominent open-source tools being [SCHOLIA](https://tools.wmflabs.org/scholia/). A tool, offering a variety of visualization possibilities and infrastructure in connection with Wikidata. Due to its open-source nature and functionalities, it was our primary choice.
 
 ## Challenges:
-It quickly became apparent that using Scholia was not directly possible when considering our dataset. Due to the need four a local input source Scholia needed to be adjusted, allowing for the dynamic changing of the endpoint. Leading us onto the path of creating a standalone library module accomplishing this and also improving on the existing visualization tools by removing the need for hardcoded elements as much as possible. 
+It quickly became apparent that using Scholia was not directly possible when considering our dataset. Due to the need for a local input source Scholia needed to be adjusted, allowing for the dynamic changing of the endpoint. Leading us onto the path of creating a standalone library module accomplishing this and also improving on the existing visualization tools by removing the need for hardcoded elements as much as possible. 
 
 ## Results:
 The created module  now allows for the dynamic adjustment of the endpoint, as well as the dynamic visualization of: 
