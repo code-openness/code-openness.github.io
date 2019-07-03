@@ -12,14 +12,10 @@ nav_order: 2
 
 **Author:** [Katharina Müller](https://github.com/Lianm123)
 
-***
-
 ## How Scholia accesses information from Wikidata:
-**In general Wikidata contains many items, each item contains properties and each property contains statements, which are values. **
-
 
 ### Let's take a look at the Scholia page for [Jens Nielsen](https://tools.wmflabs.org/scholia/author/Q16733372):
-Here we see that he has the Wikidata item id: Q16733372. 
+Here we see that he has the Wikidata item id: Q16733372. In general Wikidata contains many items, each item contains properties and each property contains statements, which are values.
 
 #### Example 1: Venues
 One possibility is to show the venue statistics for his works, as seen [here](https://w.wiki/4G2). As you can see, it shows a weighted account of venues, for example "Biotechnology and Bioengineering" or "Applied Microbiology".
