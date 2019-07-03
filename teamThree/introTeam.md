@@ -30,12 +30,12 @@ Because Scholia does not visualize the data itself, we unfortunately cannot use 
 It is possible to implement a small prototype to showcase the feasibility of the implementation of such project as a proof of concept. This prototype will help us discover the limitations and try to familiarize ourselves with the tools and concepts that we will be using later.
  
 The prototype would consist of some mocked up data which we will visualize using the D3.js library, we are also considering using React to create the elements.
-Each possible visualization consists of a data transformation step and a render step. These visualizations can be added or modified easily. Guaranteeing the expandability of the UI.
+Each possible visualization consists of a data transformation step and a render step. These visualizations can be added or modified easily, guaranteeing the expandability of the UI.
 
  
 Our end goal is an extensible data visualization tool with user-friendly design, many options/customizations which accepts data from different sources.
 
-We have some visualizations in mind that seems applicable to almost all data types, such as: Histograms, bar charts and graphs.
+We have some visualizations in mind that seem applicable to almost all data types, such as: Histograms, bar charts and graphs.
 
 We have already sketched some ‘concept’ for this prototype, which can be seen here:
 
