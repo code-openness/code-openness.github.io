@@ -2,7 +2,7 @@
 layout: default
 title: Scholia Background
 parent: 'Data Vizualization'
-nav_order: 3
+nav_order: 5
 has_children: true
 ---
 # Background on Scholia
