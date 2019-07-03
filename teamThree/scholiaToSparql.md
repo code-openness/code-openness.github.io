@@ -1,9 +1,11 @@
 ---
 layout: default
 title: 'Scholia SPARQL Querries'
-parent: Data Vizualization
-nav_order: 4
+parent: Scholia Background
+grand_parent: Data Vizualization
+nav_order: 1
 ---
+# Using Scholia SPARQL Querries
 **Date:** 11.05.2019
 
 **Team:** Data Visualization
