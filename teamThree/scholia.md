@@ -1,9 +1,11 @@
 ---
 layout: default
 title: Scholia Background
-parent: 'Team 3: Data Vizualization' 
+parent: 'Data Vizualization'
 nav_order: 3
+has_children: true
 ---
+# Background on Scholia
 **Date:** 23.04.2019
 
 **Team:** Data Visualization
