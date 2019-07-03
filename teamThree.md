@@ -13,7 +13,8 @@ So far the module allows for three types of visualizations:
 - Using HTML Table
 - Using iFrame Graphs
 - Manual
-It also contains a dev-playgorund, which demonstrates the use of these visualization methods and allows the active viewing of changes before pushing them.
+
+It also contains a dev-playground, which demonstrates the use of these visualization methods and allows the active viewing of changes before pushing them.
 
 [View on GitHub](https://github.com/code-openness/sparql-visualizer){: .btn .btn-purple }
 [Further Internal Project Documentation](https://github.com/code-openness/Documentation/wiki){: .btn .btn-purple }
