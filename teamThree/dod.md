@@ -1,7 +1,8 @@
 ---
 layout: default
 title: DoD
-parent: 'Data Vizualization'
+parent: Design/Concept
+grand-parent: 'Data Vizualization'
 nav_order: 2
 ---
 # Definition of Done (DoD)

@@ -24,12 +24,12 @@ As such, all that is needed to generate a new graph is the necessary query. The 
 It also contains a dev-playground, which demonstrates the use of these visualization methods and allows the active viewing of changes before pushing them.
 
 ## Team: 
-[Vitalij Krotov](https://github.com/vmk1vmk)
-[Viktoria S.](https://github.com/Tory94)
-[loepec](https://github.com/loepec)
-[ulibath](https://github.com/ulibath)
-[Katharina Müller] (https://github.com/Lianm123)
-[Abdullah Barhoum](https://github.com/AbdBarho)
+- [Vitalij Krotov](https://github.com/vmk1vmk)
+- [Viktoria S.](https://github.com/Tory94)
+- [loepec](https://github.com/loepec)
+- [ulibath](https://github.com/ulibath)
+- [Katharina Müller](https://github.com/Lianm123)
+- [Abdullah Barhoum](https://github.com/AbdBarho)
 
 
 [View on GitHub](https://github.com/code-openness/sparql-visualizer){: .btn .btn-purple }

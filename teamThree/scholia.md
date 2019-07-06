@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Scholia Background
-parent: 'Data Vizualization'
-nav_order: 5
-has_children: true
+parent: Design/Concept
+grand-parent: 'Data Vizualization'
+nav_order: 4
 ---
 # Background on Scholia
 **Date:** 23.04.2019
