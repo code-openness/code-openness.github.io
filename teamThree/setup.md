@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Setup Project for Development 
-parent: 'Data Vizualization'
+title: Install and Setup Project  
+parent: Development
+grand-parent: 'Data Vizualization'
 nav_order: 3
 ---
 

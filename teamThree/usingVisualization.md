@@ -1,8 +1,9 @@
 ---
 layout: default
 title: How to use sparkl_visualizer? 
-parent: 'Data Vizualization'
-nav_order: 4
+parent: Software Presentation
+grand-parent: 'Data Vizualization'
+nav_order: 1
 ---
 # How to use sparkl_visualizer? 
 

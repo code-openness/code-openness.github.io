@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Motivation
-parent: 'Data Vizualization'
+parent: Design/Concept
+grand-parent: 'Data Vizualization'
 nav_order: 1
 ---
 # Motivation
