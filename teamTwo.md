@@ -119,3 +119,8 @@ In our case we went for a VM provided by our university department.
    - [vahid](https://github.com/vahidhk)
    - [besendorf](https://github.com/besendorf)
                              
+                             
+                             
+[View on GitHub](https://github.com/code-openness/data-mapping){: .btn .btn-purple }
+[View Scrum Board](https://github.com/orgs/code-openness/projects/2){: .btn .btn-purple }
+[Further Internal Project Documentation](https://github.com/code-openness/Documentation/wiki){: .btn .btn-purple }
