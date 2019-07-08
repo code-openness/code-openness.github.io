@@ -5,7 +5,7 @@ parent: 'Team 1: Data Context'
 nav_order: 3
 ---
 
-
+### Data model
 The data must have a specific structure so that the data can be uploaded to the database and the people from the visualization can do something with it. We have reworked our data model several times and finally opted for this model:
 
 (Grafik)
