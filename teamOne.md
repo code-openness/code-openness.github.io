@@ -17,9 +17,8 @@ permalink: /teamOne
 - [Abdullah Barhoum](https://github.com/AbdBarho)
 - [Mahmoud](https://github.com/kozae)
 
-https://github.com/orgs/code-openness/teams/data-context
 
 [View on GitHub](https://github.com/orgs/code-openness/teams/data-context){: .btn .btn-purple }
 [View Scrum Board](https://github.com/orgs/code-openness/projects/3){: .btn .btn-purple }
-[Further Internal Project Documentation](https://github.com/code-openness/Documentation/wiki/Data-Model){: .btn .btn-purple }
+[Further Internal Project Documentation](https://github.com/code-openness/Documentation/wiki){: .btn .btn-purple }
 
