@@ -2,7 +2,7 @@
 layout: default
 title: Data model
 parent: 'Data Context' 
-nav_order: 3
+nav_order: 2
 ---
 
 ### Data model
