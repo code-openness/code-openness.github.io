@@ -7,7 +7,7 @@ nav_order: 1
 ---
 # Screencasts for the sparkl_visualizer Developer Playground functionality: 
 
-## Imediatlly view changes made in development: 
+## Immediately view changes made in development: 
 <iframe src="https://drive.google.com/file/d/174kZc8Jn6eWmUYsJzXSMNmibccFvHXLZ/preview" width="640" height="480"></iframe>
 
 ## Dynamic adjustments of chart type: 
