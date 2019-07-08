@@ -16,5 +16,4 @@ nav_order: 1
 So that the other groups do not have to deal with the data set in detail, our main goal has been to make the bibliographic data from the PIK accessible. 
 This means that the dataset must be in reasonably good quality and compatible with the data model of Wikidata before we can give the dataset to the next group.
 
-The complete documentation can be found at  [Dokumentation: Data Cleansing and Model]
-(https://github.com/code-openness/Documentation/wiki/Data-Model)
+The complete documentation can be found at  [Dokumentation: Data Cleansing and Model](https://github.com/code-openness/Documentation/wiki/Data-Model)
