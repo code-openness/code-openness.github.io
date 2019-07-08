@@ -5,6 +5,20 @@ nav_order: 3
 has_children: true
 permalink: /teamTwo
 ---
+# Data Mapping
+Our goal for this software project was To load the data we get from group 1(Data Context) into a database instance and make it available for group 3(Data Visualization).
+
+Wikibase is the software that enables MediaWiki to store structured data or access data that is stored in a structured data repository.
+
+## Challenges:
+ Find a suitable database where we can store the data.
+ We now have data and must be available. 
+
+## Research:
+Then we looked for similar solutions that we could reuse.
+
+## Results:
+We have succeeded in loading data into wikibase and be queried from Scholia to visualize data.
 
 <h4>Server</h4>
 You're going to need some kind of server to run your wikibase instance. Depending on your ressources and usecase there can be a lot of options. From a dedicated x86 server, a rented vServer, a VM, or even a Raspberry Pi. It just needs to run docker.
