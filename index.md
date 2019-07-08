@@ -14,7 +14,8 @@ In this project, we got a dataset containing bibliographic information of a scie
 The whole group was divided into three subgroups: Data context, data mapping, and data visualization. 
 The connection between the three groups is as follows:
 
-(Grafik)
+<img src="https://github.com/code-openness/code-openness.github.io/blob/master/grafik.png" />
+
 
 Because the project is based on Free/Libre Open Source software, all software has been kept open source, for example, communication has been managed via open source software. All code is written and used during the project can be found on the GitHub page.
 
