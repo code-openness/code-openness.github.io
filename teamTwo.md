@@ -108,7 +108,11 @@ In our case we went for a VM provided by our university department.
                                         <li>execute import.sh  <br> ./import.sh </li>
                                       </ol>
     <p>Then we tried to make the code perform better through multithreadding.</p>     
-        ## Team: 
+    
+    
+    
+    
+     Team: 
    - [belarara](https://github.com/belarara)
    - [altan](https://github.com/karacaltan)
    - [Xenja](https://github.com/XenjaCh)
