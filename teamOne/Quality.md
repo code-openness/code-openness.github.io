@@ -2,7 +2,7 @@
 layout: default
 title: Quality of the data set
 parent: 'Data Context' 
-nav_order: 2
+nav_order: 1
 ---
 
 
