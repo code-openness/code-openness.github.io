@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Data model
-parent: 'Team 1: Data Context' 
+parent: 'Data Context' 
 nav_order: 3
 ---
 
