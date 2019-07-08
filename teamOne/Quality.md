@@ -5,11 +5,12 @@ parent: 'Data Context'
 nav_order: 1
 ---
 
-
-### Quality of the data set
-
-The quality of the data set can be measured by its completeness and consistency. 
-In some columns, many entries were missing. Because filling the missing data would take some time and we only have a limited and short project time, the completeness of the data set was neglected and the existing data were checked for consistency. For this purpose, the complete data set was examined and the inconsistencies of the individual columns were corrected.  Under inconsistencies, for example, you can imagine different spellings for the same entry, or different number systems for a column.  In other words, a column must have formatting in itself and not different ones.  An example: we found the word "Öko" in the following spellings: Oeko, oeko, Öko, öko.  Another example is the names of the authors. These were either written out in full or the first name was abbreviated.   Such and other inconsistencies were then cleaned up using self-written scripts or using OpenRefine.  OpenRefine is an open source application that allows you to determine the differences using different algorithms and thus combine the entries of a column into clusters. In addition, entries that occurred in duplicate have been deleted.  After all, columns had been checked and cleaned, the data set could be adapted to the data model. Furthermore, a guideline was written for future datasets, to what extent consistency can be taken into account when creating such datasets and what would possibly facilitate further work.
+# Quality of the data set
+Data set quality is measured in its completeness and consistency. The tabular data set was received within a CSV file and roughly analyzed. Consequently, it was discovered that some columns lacked multiple entries. Due to the limited time available for this project, and the extensive time necessary to fill-in missing data, which was often unavailable, data completeness was omitted.  Instead, the existing data were checked for consistency by examining and correcting inconsistencies in the individual columns. Inconsistencies can include different spellings for the same entry, or different number systems for a column. In other words, a column must have one unified formatting in itself and not several.
+For example, we found the word "Öko" in the following spellings: Oeko, oeko, Öko, and öko. Another example is the names of the authors. These were either written out in full or with the first name abbreviated. 
+These inconsistencies and others were then cleaned up using self-written scripts and OpenRefine. 
+OpenRefine is an open-source application that allows the determination of anomalies using different algorithms and thus combine the entries of a column into clusters. Additionally, entries that occurred in duplicate were removed. 
+After all, columns had been checked and cleaned, the data set could be adapted to the data model. Furthermore, a guideline was written for future datasets describing to what extent consistency can be taken into account when creating such datasets and what would possibly facilitate further work.
 
 
 [Scripts to clean up](https://github.com/code-openness/Data/tree/master/handlers){: .btn .btn-green }
