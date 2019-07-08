@@ -28,7 +28,7 @@ Furthermore, a model was created that fits into the format of Wikidata and Schol
 - [Hannah Troppens](https://github.com/HannahMariechen)
 - [Juliane Wundermann](https://github.com/julianewundermann)
 - [Abdullah Barhoum](https://github.com/AbdBarho)
-- [Mahmoud](https://github.com/kozae)
+- [Mahmoud Kozae](https://github.com/kozae)
 
 
 [View on GitHub](https://github.com/orgs/code-openness/teams/data-context){: .btn .btn-purple }
