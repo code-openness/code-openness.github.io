@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Quality of the data set
-parent: 'Team 1: Data Context' 
+parent: 'Data Context' 
 nav_order: 2
 ---
 
