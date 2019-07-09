@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Example
-parent: 'Team 2: Data Mapping' 
+parent: 'Data Mapping'
 nav_order: 2
 ---
 <h4>Docker</h4>
