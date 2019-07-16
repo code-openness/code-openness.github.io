@@ -5,6 +5,20 @@ nav_order: 3
 has_children: true
 permalink: /teamTwo
 ---
+# Data Mapping
+Our goal for this software project was To load the data we get from group 1(Data Context) into a database instance and make it available for group 3(Data Visualization).
+
+Wikibase is the software that enables MediaWiki to store structured data or access data that is stored in a structured data repository.
+
+## Challenges:
+ Find a suitable database where we can store the data.
+ We now have data and must be available. 
+
+## Research:
+Then we looked for similar solutions that we could reuse.
+
+## Results:
+We have succeeded in loading data into wikibase and be queried from Scholia to visualize data.
 
 <h4>Server</h4>
 You're going to need some kind of server to run your wikibase instance. Depending on your ressources and usecase there can be a lot of options. From a dedicated x86 server, a rented vServer, a VM, or even a Raspberry Pi. It just needs to run docker.
@@ -93,6 +107,20 @@ In our case we went for a VM provided by our university department.
                                         <li>Save import.sh file</li>
                                         <li>execute import.sh  <br> ./import.sh </li>
                                       </ol>
-                                      <p>Then we tried to make the code perform better through multithreadding.</p>                         
+    <p>Then we tried to make the code perform better through multithreadding.</p>     
+    
+    
+    
+    
+     Team: 
+   - [belarara](https://github.com/belarara)
+   - [altan](https://github.com/karacaltan)
+   - [Xenja](https://github.com/XenjaCh)
+   - [vahid](https://github.com/vahidhk)
+   - [besendorf](https://github.com/besendorf)
                              
                              
+                             
+[View on GitHub](https://github.com/code-openness/data-mapping){: .btn .btn-purple }
+[View Scrum Board](https://github.com/orgs/code-openness/projects/2){: .btn .btn-purple }
+[Further Internal Project Documentation](https://github.com/code-openness/Documentation/wiki){: .btn .btn-purple }
