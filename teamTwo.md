@@ -107,17 +107,27 @@ In our case we went for a VM provided by our university department.
                                         <li>Save import.sh file</li>
                                         <li>execute import.sh  <br> ./import.sh </li>
                                       </ol>
-    <p>Then we tried to make the code perform better through multithreadding.</p>     
+                                      
+                                      
+ <h4>Adding new items:</h4>
+<ol>
+<li> Assuming you already followed the steps of "Executing the script" atleast once before</li>
+<li> Open import_new_data.sh in editor</li>
+<li> Replace path in variable NEW_FILE with path to the file with new data</li>
+<li> Replace path in variables ITEM_MAP and PROP_MAP if necessary, paths need to be existing files!</li>
+<li> Save import_new_data.sh</li>
+<li> Execute import_new_data.sh
+	./import_new_data.sh</li>
+ </ol>  
+ <p>Then we tried to make the code perform better through multithreadding.</p>     
     
-    
-    
-    
-     Team: 
-   - [belarara](https://github.com/belarara)
-   - [altan](https://github.com/karacaltan)
-   - [Xenja](https://github.com/XenjaCh)
-   - [vahid](https://github.com/vahidhk)
-   - [besendorf](https://github.com/besendorf)
+  
+ Team: 
+- [belarara](https://github.com/belarara)
+- [altan](https://github.com/karacaltan)
+- [Xenja](https://github.com/XenjaCh)
+- [vahid](https://github.com/vahidhk)
+- [besendorf](https://github.com/besendorf)
                              
                              
                              
